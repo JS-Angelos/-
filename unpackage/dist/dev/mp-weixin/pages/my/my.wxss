@@ -1,0 +1,164 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1c2c60;
+  z-index: 999;
+}
+.top-bg {
+  width: 100%;
+  height: 250px;
+  background-color: #1c2c60;
+}
+.my .plate1 {
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  background-color: #fff;
+  margin-top: -25px;
+}
+.my .plate1 .portrait {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 1px 3px #F1F1F1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-transform: translateY(-75px);
+          transform: translateY(-75px);
+  background-color: #fff;
+}
+.my .plate1 .portrait .img {
+  width: 100%;
+  height: 100%;
+}
+.my .plate1 .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0 25px;
+  margin-top: -60px;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+.my .plate1 .btn-login {
+  border-radius: 20px;
+  width: 150px;
+  color: #fff;
+  outline: none;
+  background-color: #07c160;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.my .plate1 .btn-login:active {
+  background-color: #00a259;
+}
+.my .plate2 {
+  margin-top: 20px;
+}
+.my .plate2 .btn {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 3px #C8C7CC;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #555555;
+  line-height: 30px;
+}
+.my .plate2 .btn::after {
+  border: none;
+}
+.my .plate2 .btn:active {
+  background-color: #fcfcfc;
+  box-shadow: 0 0 3px #fcfcfc;
+}
+.my .plate2 .btn .font-right {
+  font-size: 19px;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.my .plate2 .btn .font-left {
+  display: block;
+  width: 26px;
+  height: 100%;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.my .plate3 {
+  width: 90%;
+  margin: -2px auto 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.my .plate3 .module {
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  box-shadow: 0 0 3px #C8C7CC;
+}
+.my .plate3 .module .i {
+  margin-right: 2px;
+}
+.my .plate3 .module .highlight {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.logout {
+  margin: 20px auto;
+  width: 220px;
+  border-radius: 10px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #dd6572;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.logout::after {
+  border: none;
+}
+.logout:active {
+  background-color: #c35866;
+}
+.versions {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+

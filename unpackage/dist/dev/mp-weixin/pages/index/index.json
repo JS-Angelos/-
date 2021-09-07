@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "梓云志愿者",
+  "navigationBarBackgroundColor": "#1c2c60",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "backgroundColorTop": "#1c2c60",
+  "usingComponents": {}
+}

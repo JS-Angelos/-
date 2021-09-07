@@ -1,0 +1,9 @@
+.deploy_git/
+node_modules/
+public/
+static/
+
+
+.idea
+.vscode
+*.suo

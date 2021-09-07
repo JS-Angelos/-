@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "梓云志愿者",
+				"navigationBarBackgroundColor": "#1c2c60",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark",
+				"backgroundColorTop": "#1c2c60"
+			}
+		},
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "梓云志愿者",
+				"navigationBarBackgroundColor": "#1c2c60",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark",
+				"backgroundColorTop": "#1c2c60"
+			}
+		}, 
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1c2c60",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/addUserInfo/addUserInfo",
+			"style": {
+				"navigationBarTitleText": "入会信息填写",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1c2c60",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	    ,{
+            "path" : "pages/userinfoZiyun/userinfoZiyun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1c2c60",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "梓云志愿者",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#d81e06",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home1.png"
+			},
+			// {
+			// 	"pagePath": "pages/activity/activity",
+			// 	"text": "活动",
+			// 	"iconPath": "static/img/activity.png",
+			// 	"selectedIconPath": "static/img/activity1.png"
+			// },
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/my1.png"
+			}
+		]
+	}
+}
