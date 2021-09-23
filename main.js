@@ -6,12 +6,16 @@ import './static/font/iconfont.css'
 Vue.config.productionTip = false
 
 // 自定义属性&方法 start
+Vue.prototype.$ziyunUserInfo = {}
+Vue.prototype.$zyyUserInfo = {}
 Vue.prototype.$utils = utils
-Vue.prototype.$URL = "https://28248b043t.oicp.vip/api" // 请求地址
+Vue.prototype.$domain = "https://28248b043t.oicp.vip" // 请求地址
+// Vue.prototype.$domain = "http://10.0.18.87:8023"
+Vue.prototype.$URL = Vue.prototype.$domain + "/api"
 Vue.prototype.$exa = {
 	ifVerifyToken: false,
 	ifVer: false,
-	ifVol: false
+	ifVol: false,
 }
 Vue.prototype.$verifyToken = function(token) {
 	let that = this
@@ -25,6 +29,7 @@ Vue.prototype.$verifyToken = function(token) {
 			},
 			success(res) {
 				if (res.statusCode !== 200) {
+					reject(res)
 					return uni.showModal({
 						title: "提示",
 						content: "Error: token API " + res.statusCode,
